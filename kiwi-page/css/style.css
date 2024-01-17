@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Lato";
+    src: url("https://fonts.google.com/specimen/Lato")
+  }
+
+@font-face {
+    font-family: "Poppins";
+    src: url("https://fonts.google.com/specimen/Poppins")
+}
+
+#box {
+    width: 40%;
+    height: auto;
+    background-color: rgba(255,255,255,0.5);
+    margin: 40px auto 40px auto;
+    padding: 25px 150px 25px 150px;
+}
+
+body {
+    background-color: #DEAFB7;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 4px solid #CE8A96;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main p {
+    font-size: 20px;
+}
+
+p {
+    font-family: Lato;
+    font-size: 25px;
+}
+
+img {
+    width : auto;
+    height : 600px;
+}
+
+h1, h2, h3 {
+    font-family: Poppins;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 400;
+    color: #CE8A96;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 6px;
+}
+
+h3 {
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+article {
+    border: 4px solid #DEAFB7;
+    border-top: none;
+    border-bottom: none;
+    margin-top: 30px;
+    padding: 15px 60px;
+    
+}
+
+table {
+    margin: 0 auto;
+    border: 3px solid #DEAFB7;
+    border-collapse: collapse;
+    font-family: Lato;
+    
+}
+
+th {
+    background-color: #DEAFB7;
+    padding: 5px;
+}
+
+ol {
+    text-align: left;
+    font-family: Lato;
+}
+
+#code {
+    background-color: #DEAFB7;
+    margin: 0 auto; 
+    text-align: left;
+
+}
+
+code {
+    padding: 20px;
+}
